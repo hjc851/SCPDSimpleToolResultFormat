@@ -1,0 +1,3 @@
+rootProject.name = 'SCPDSimpleToolResultFormat'
+include 'beans'
+include 'serialiser'
