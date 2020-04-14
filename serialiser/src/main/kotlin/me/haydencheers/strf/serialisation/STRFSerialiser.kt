@@ -21,7 +21,6 @@ object STRFSerialiser {
             val entry = ZipEntry(ENTRY_NAME)
             zout.putNextEntry(entry)
             jsonb.toJson(bean, zout)
-            jsonb.toJson(bean, System.out)
             zout.closeEntry()
         }
     }
